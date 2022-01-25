@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: "baloo 2", cursive;
+}
+.container{
+width: 90%;
+margin: auto;
+}
+header{
+background: url(../img/hero1-bg.png.gif)no-repeat center center;
+background-size: cover;
+width: 100%;
+float: left;
+z-index: 0;
+margin-bottom: 150px;
+}
+.logo-part{
+width: 50%;
+float: left;
+position: relative;
+top: 40px;
+left: 30px;
+}
+.logo-part a{
+    
+}
+.logo-part a img{
+width: 17%;
+}
+.menu-part{
+
+}
+.menu-part nav{
+text-align: right;
+}
+.menu-part nav ul{
+font-weight: 500;
+position: relative;
+top: 20px;
+}
+.menu-part nav ul li{
+display: inline-block;
+list-style: none;
+padding: 24px;
+}
+.menu-part nav ul li a{
+text-decoration: none;
+color: white;
+}
+#hero{
+width: 100%;
+float: left;
+text-align: center;
+}
+.content{
+margin-top: 150px;
+width: 100%;
+float: left;
+text-align: center;
+}
+.writing-part{
+color: white;
+}
+.writing-part h1{
+font-size: 50px;
+font-weight: 600;
+line-height: 79px;
+}
+.writing-part  p{
+font-size: 18px;  
+padding: 25px;
+}
+.button{
+margin-top: 20px;
+}
+.writing-part a{
+
+}
+.writing-part a button{
+ margin: 0px 10px; 
+ border-radius: 5px;
+ border: 1px solid white;
+
+}
+.btn-light{
+padding: 3px 20px;
+background: white;
+color: black;
+font-weight: 900;
+}
+.btn-dark{
+padding: 3px 20px; 
+background: transparent;
+color: white;
+font-weight: 900;
+}
+.image-part{
+
+}
+.image-part img{
+margin-top: 60px;
+
+}
+
+#hero1{
+    background: url(../img/hero-2.png.gif)no-repeat center;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    backface-visibility: hidden;
+    padding: 270px 0px 200px;
+    z-index: 1;
+    position: relative;
+    top: -300px;
+}
+.image1-part { width: 40%; float: left; }
+.image1-part img { margin-left: 200px; margin-top: 60px; width: 40%; }
+.writing1-part { width: 60%; float: left; text-align: center; }
+.writing1-1 { width: 30%; float: left; }
+.f-b { }
+.f-b img { }
+.f-b h4 { }
+.f-b p {color: #6a6d89;}
+.content1 { padding: 15px; box-shadow: rgb(190, 188, 188) 0px 2px 3px; border-radius: 5px; position: relative; bottom: 40px; }
+.content1 img { width: 20%; }
+.content1 h4 { padding: 20px; }
+.content1 p { }
+.content2 { padding: 15px; box-shadow: rgb(190, 188, 188) 0px 1px 3px; border-radius: 5px; position: relative; top: 10px; right: 50px; }
+.content2 img { width: 20%; }
+.content2 h4 { padding: 20px; }
+.content2 p { }
+.writing1-2 { width: 30%; float: left; }
+.content3 { padding: 15px; box-shadow: rgb(190, 188, 188) 0px 2px 3px; border-radius: 5px; position: relative; left: 50px; top: 60px; }
+.content3 img { width: 20%; }
+.content3 h4 { padding: 20px; }
+.content3 p { }
+.content4 { padding: 15px; box-shadow: rgb(190, 188, 188) 0px 1px 3px; border-radius: 5px; position: relative; top: 160px; left: 15px; }
+.content4 img { width: 20%; }
+.content4 h4 { padding: 20px; }
+.content4 p { }
+
+#hero2{
+width: 100%;
+float: left;
+margin: 0px 0px 50px;
+background: white;
+position: relative;
+margin-top: -250px;
+}
+.part-1{
+width: 35%;
+float: left;
+margin-top: 150px;
+position: relative;
+left: 130px;
+text-align: center;
+}
+.part-1 h2{
+font-size: 35px;
+font-weight: 700;
+text-align: right;
+}
+.part-1 p{
+font-size: 15px;
+padding: 30px 0px 20px;
+color: #6a6d89;
+text-align: right;
+}
+.part-1 a {
+}
+.part-1 a button{
+background: rgb(10, 148, 202);
+border: none;
+padding: 12px 43px 13px;
+border-radius: 10px;
+color: white;
+font-size: 15px;
+position: relative;
+right: -100px;
+}
+.part-1 a button :hover{
+background: rgb(15, 187, 230);
+}
+.part-2{
+width: 65%;
+float: left;
+margin-top: 100px;
+position: relative;
+left: 250px;
+}
+.Made{
+
+}
+.Free{
+background:rgb(60, 189, 240) ;
+}
+.Fully{
+
+}
+.ux{
+
+}
+.f-1{
+box-shadow:rgb(224 221 221) 0px 3px 2px ;
+margin: 15px 0px;
+padding: 10px 22px 25px;
+width: 50%;
+}
+.f-1 img{
+width: 4%;
+margin: -2px 0px -4px;
+}
+.f-1 h4{
+display: inline-block;
+margin: 0px 15px;
+}
+.f-1 p{
+margin: 10px 33px 0px;
+color: white;
+font-size: 14px;
+}
+#hero3{
+background: white;
+width: 100%;
+float: left;
+margin: 50px 0px;
+}
+.h3-part-1{
+width: 50px;
+float: left;
+position: relative;
+left: 100px;
+}
+.h3-part-1 img{
+
+}
+.h3-part-2 {
+margin-top: 50px;
+width: 50%;
+float: left;
+position: relative;
+right: -670px;
+}
+.h3-part-2 h4{
+font-size: 35px;
+}
+.h3-part-2 ul{
+font-weight: 600;
+font-size: 18px;
+padding: 30px 20px 0px;
+}
+.h3-part-2 ul li{
+
+}
+.h3-part-2 p{
+font-size: 15px;
+padding: 30px 0px 20px;
+width: 71%;
+color: #6a6d89 ;
+}
+#hero4{
+background: url(../img/h4.pg.jpg) center center / cover no-repeat;
+width: 100%;
+float: left;
+padding: 100px 0px;
+margin-bottom: -4%;
+}
+.h4-part-1{
+width: 50%;
+float: left;
+text-align: right;
+position: relative;
+right: 150px;
+}
+.h4-part-1 img{
+
+}
+.h4-part-2{
+width: 50%;
+float: left;
+margin-top: 150px;
+}
+.h4-part-2 h4{
+    font-size: 35px;
+}
+.h4-part-2 p{
+width: 70%;
+font-size: 16px;
+padding: 25px 0px 30px;
+color: white;
+}
+.h4-part-2 img{
+
+}
+.ios{
+margin-right: 20px;
+}
+.Google{
+margin-left: 20px;
+}
+#hero5{
+width: 100%;
+float: left;
+}
+.h5-part-1{
+width: 100%;
+float: left;
+}
+.h5-part-1 h1{
+background: url(../img/H5.PG.jpg) center center / 30%  no-repeat ;
+text-align: center;
+font-size: 150%;
+padding: 3% 0% 5%;
+color: white;
+backface-visibility: hidden;
+font-weight: 500;
+}
+.h5-part-2{
+width: 100%;
+float: left;
+padding: 6% 0%;
+}
+.r1{
+width: 30%;
+float: left;
+position: relative;
+left: 20%;
+}
+.r2{
+width: 20%;
+float: left;
+position: relative;
+left: 6%;
+}
+.r3{
+width: 20%;
+float: left;
+position: relative;
+left: 4%;
+}
+.r4{
+width: 30%;
+float: left;
+}
+.r5{
+
+}
+.r5 h4{
+
+}
+.r5 p{
+color: #6a6d89;
+}
+#hero6{
+width: 100%;
+float: left;
+}
+.h6-part{
+text-align: center;
+}
+.h6-part h1{
+font-size: 200%;
+}
+.h6-part p{
+font-size: 110%;
+font-weight: 500;
+padding: 1% 0% 4%;
+color: #6a6d89;};
+
+.h6-part input{
+text-align: center;
+}
+.box{
+padding: 8px 150px;
+background:  rgb(242, 242, 242);
+border: none;
+margin-right: 15px;
+}
+.bu{
+padding: 6px 35px; 
+font-size: 16px;
+font-weight: 600;
+background:rgb(51, 210, 253) ;
+border: none;
+margin-left: 15px;
+border-radius: 3px;
+}
+.bu :hover{
+background:rgb(5, 175, 223) ;
+}
+footer{
+width: 100%;
+float: left;
+background: url(../img/Footer.pg.jpg) center center / cover no-repeat;
+color: white;
+padding: 6% 0%  0%;
+position: relative;
+top: 100px;
+}
+.f1-part{
+width: 50%;
+float: left;
+font-size: 90%;
+padding: 3% 0% 2%;
+}
+.f2-part{
+width: 50%;
+float: left;
+text-align: right;
+}
+.f2-part a{
+
+}
+.f2-part a i{
+padding: 6% 2% 5%;
+font-size: 120%;
+color: white;
+}
